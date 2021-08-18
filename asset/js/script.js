@@ -23,7 +23,7 @@ checkWeatherBtn.onclick = function displayWeatherPage()
     inputContainer.style.display = 'none';
     descriptionContainer.style.display = 'flex';
 
-    $.getJSON("http://api.openweathermap.org/data/2.5/weather?q=" + cityName + "&appid=fb76d87eef777c3d39c1628ad382c9b2", function(data){
+    $.getJSON("https://api.openweathermap.org/data/2.5/weather?q=" + cityName + "&appid=fb76d87eef777c3d39c1628ad382c9b2", function(data){
         console.log(data);
         var Icon ="https://openweathermap.org/img/w/" + data.weather[0].icon + ".png";
     
