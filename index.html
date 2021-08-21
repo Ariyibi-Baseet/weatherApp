@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./asset/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap" rel="stylesheet">
     <title>Weather App</title>
 </head>
@@ -15,28 +16,38 @@
     <div class="w-container">
     <div class="w-landing">
         <p></p>
-        <p class="intro">Check Weather of your Location <span>Right</span></p>
+        <p class="intro">Check Weather in your Location <span>Right</span></p>
         <p></p>
         <button class="g-btn">Get Started</button>
     </div>
     <div class="w-input">
         <img src="" alt="">
-        <input type="text" placeholder="type your location here...">
+        <input type="text" placeholder="type your city name here..." class="cityName" value="">
         <p>
-        <input type="submit" value="Check Weather">
+        <input type="submit" value="Check Weather" class="c-w-btn">
         <p></p>
     </div>
     <div class="w-description">
-        <img src="" alt="">
-        <p class="weather">Weather</p>
-        <p class="temp">Temperature</p>
+        <img src="" alt="" class="w-icon">
+        <p>From <span class="name"></span></p>
+        <p class="weather"></p>
+        <p class="temp"></p>
+        <div>
+        <span class="bk-btn">&#x2190; Back to Homepage</span>
+        </div>
     </div>
     </div>
 
+<footer>
+    <p>
+        Created with ❤ By 
+        <a href="mailto:ariyibi.baseet@gmail.com" class="dev-info">Ariybi Baseet</a> 
+        <a href="https://github.com/Ariyibi-Baseet">
+            <i class="fab fa-github"></i>
+        </a> 
+    </p>
+</footer>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-<!-- <script src="./asset/js/scrollreveal-master/dist/scrollreveal.min.js"></script> -->
 <script src="./asset/js/script.js"></script>
-<script src="./asset/js/isScrollReveal.js"></script>
-<script src="./asset/js/displayToggler.js"></script>
 </body>
 </html>

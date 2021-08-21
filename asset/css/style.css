@@ -106,6 +106,7 @@ body{
     border:2px solid indigo;
     transition:300ms ease-in-out;
 }
+
 /* styling for w-description */
 .w-description{
     display:flex;
@@ -128,7 +129,23 @@ body{
     font-size:28px;
     margin-top:5px;
 }
+.w-description .bk-btn{
+    cursor:pointer;
+    color:red;
+}
 
+/* styling for footer */
+footer p,a,i{
+    color:white;
+}
+
+footer p a{
+    text-decoration:none;
+}
+
+.dev-info{
+    color:yellow;
+}
 
 
 
