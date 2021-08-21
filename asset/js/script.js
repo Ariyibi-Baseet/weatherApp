@@ -44,7 +44,5 @@ checkWeatherBtn.onclick = function displayWeatherPage()
 }
 goBackBtn.onclick = function goBack()
 {
-    descriptionContainer.style.display = 'none';
-    landingContainer.style.display = 'block';
-    document.querySelector('.cityName').value = "";
+    location.reload();
 }
