@@ -33,7 +33,7 @@ checkWeatherBtn.onclick = function displayWeatherPage()
         var Name = data.name;
         $('.name').append(Name)
     
-        var Temperature = data.main.temp;
+        var Temperature = data.main.temp + "🌡℃";
         $('.temp').append(Temperature)
     
         // append the icon from the weather to the img with class of w-icon
